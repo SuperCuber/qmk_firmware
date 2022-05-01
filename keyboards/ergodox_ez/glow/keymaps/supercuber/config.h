@@ -1,0 +1,29 @@
+// Tapping
+#define PERMISSIVE_HOLD
+#define HOLD_ON_OTHER_KEY_PRESS
+
+#undef TAPPING_TERM
+#define TAPPING_TERM 200
+
+#undef RGB_DISABLE_TIMEOUT
+#define RGB_DISABLE_TIMEOUT 180000
+
+#define USB_SUSPEND_WAKEUP_DELAY 0
+
+// Mouse
+#define MK_3_SPEED
+// For some reason, the meaning of this flag is inverted
+#define MK_MOMENTARY_ACCEL
+#define MK_C_OFFSET_0 16
+#define MK_C_INTERVAL_0 8
+#define MK_C_OFFSET_UNMOD 4
+#define MK_C_INTERVAL_UNMOD 8
+
+// Wheel
+#undef MOUSEKEY_WHEEL_MAX_SPEED
+#define MOUSEKEY_WHEEL_MAX_SPEED 1
+#undef MOUSEKEY_WHEEL_TIME_TO_MAX
+#define MOUSEKEY_WHEEL_TIME_TO_MAX 1
+
+#define FIRMWARE_VERSION u8"RQv46/bVRqp"
+#define RGB_MATRIX_STARTUP_SPD 60
